@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studieforeningskalender_Backend.Domain", "Studieforeningskalender_Backend.Domain\Studieforeningskalender_Backend.Domain.csproj", "{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studieforeningskalender_Backend.Service", "Studieforeningskalender_backend.Service\Studieforeningskalender_Backend.Service.csproj", "{D079FB85-8556-4A82-8231-9B9B0B7781CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studieforeningskalender_Backend.Presentation", "Studieforeningskalender_backend.Presentation\Studieforeningskalender_Backend.Presentation.csproj", "{AADC58B2-A7BC-4367-A015-2E100E281E90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE} = {4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}
+		{D079FB85-8556-4A82-8231-9B9B0B7781CF} = {D079FB85-8556-4A82-8231-9B9B0B7781CF}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Studieforeningskalender_Backend.Infrastructure", "Studieforeningskalender_Backend.Infrastructure\Studieforeningskalender_Backend.Infrastructure.csproj", "{15E71FDB-2237-42FF-929D-3E349C209450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F27B91E-C0A8-4A60-8F8A-C772CFCF06FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D079FB85-8556-4A82-8231-9B9B0B7781CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D079FB85-8556-4A82-8231-9B9B0B7781CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D079FB85-8556-4A82-8231-9B9B0B7781CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D079FB85-8556-4A82-8231-9B9B0B7781CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AADC58B2-A7BC-4367-A015-2E100E281E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AADC58B2-A7BC-4367-A015-2E100E281E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AADC58B2-A7BC-4367-A015-2E100E281E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AADC58B2-A7BC-4367-A015-2E100E281E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E71FDB-2237-42FF-929D-3E349C209450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E71FDB-2237-42FF-929D-3E349C209450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E71FDB-2237-42FF-929D-3E349C209450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E71FDB-2237-42FF-929D-3E349C209450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82C1094A-BDD0-4D0C-B5AB-AD24C811346B}
+	EndGlobalSection
+EndGlobal
